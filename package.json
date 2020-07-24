@@ -9,6 +9,7 @@
   },
   "main": "index.js",
   "files": [
+    ".github/workflows",
     "bin"
   ],
   "scripts": {
