@@ -1,6 +1,6 @@
 {
   "name": "@nodenv/devutil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "Scripts and test helpers for nodenv repos.",
   "author": "Jason Karns <jason.karns@gmail.com> (http://jasonkarns.com/)",
