@@ -1,11 +1,16 @@
 {
   "name": "@nodenv/devutil",
   "version": "0.0.0",
+  "license": "MIT",
   "description": "Scripts and test helpers for nodenv repos.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Jason Karns <jason.karns@gmail.com> (http://jasonkarns.com/)",
-  "license": "MIT"
+  "directories": {
+    "bin": "bin"
+  },
+  "main": "index.js",
+  "files": [
+  ],
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  }
 }
