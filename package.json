@@ -11,6 +11,7 @@
   "files": [
   ],
   "scripts": {
+    "changelog": "bin/changelog",
     "postversion": "git push --follow-tags"
   }
 }
