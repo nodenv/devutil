@@ -4,6 +4,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
+if [ "$1" = -- ]; then shift; fi
 pathspecs=("$@")
 
 previous_tag() {
