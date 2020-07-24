@@ -9,9 +9,10 @@
   },
   "main": "index.js",
   "files": [
+    "bin"
   ],
   "scripts": {
-    "changelog": "bin/changelog",
+    "changelog": "bin/changelog bin",
     "postversion": "git push --follow-tags"
   }
 }
