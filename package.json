@@ -4,6 +4,13 @@
   "license": "MIT",
   "description": "Scripts and test helpers for nodenv repos.",
   "author": "Jason Karns <jason.karns@gmail.com> (http://jasonkarns.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodenv/devutil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodenv/devutil/issues"
+  },
   "directories": {
     "bin": "bin"
   },
@@ -13,7 +20,7 @@
     "bin"
   ],
   "scripts": {
-    "changelog": "bin/changelog bin",
+    "changelog": "bin/changelog -- bin",
     "postversion": "git push --follow-tags"
   }
 }
