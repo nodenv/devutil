@@ -9,7 +9,7 @@ jobs:
         with: { fetch-depth: 0 }
       - run: npm run changelog | tee relnotes.txt
       - uses: jasonkarns/create-release@master
-        with: { body_file: relnotes.txt }
+        with: { body_path: relnotes.txt }
 
   npm:
     runs-on: ubuntu-latest
